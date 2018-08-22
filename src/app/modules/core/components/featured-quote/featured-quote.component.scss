@@ -1,0 +1,49 @@
+.quoteWrap {
+  margin: 15px 0;
+  background-color: #ffffff;
+  border-radius: 2px;
+  padding: 15px 10px;
+  display: block;
+  box-shadow: 0 1px 20px 0 #f1f1f1;
+  position: relative;
+  min-height: 300px;
+
+  &:hover {
+    box-shadow: 0 1px 20px 0 #e3e3e3;
+  }
+
+  .title {
+    display: block;
+  }
+
+  .quote {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    display: block;
+    color: #868686;
+    min-height: 200px;
+    padding-top: 20px;
+  }
+
+  .image-box {
+    min-height: 150px;
+    border: 1px solid white;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .imageWrap {
+    margin-left: 5px;
+  }
+
+  .quote-info {
+    font-size: 12px;
+    right: 15px;
+    left: 15px;
+    position: absolute;
+    bottom: 0;
+    background-color: #ebebeb;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+}

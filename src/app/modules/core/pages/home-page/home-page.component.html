@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <app-featured-quote [quote]="randomQuote"></app-featured-quote>
+    </div>
+  </div>
+  <div class="row">
+      <div *ngFor="let quote of movieQuotes" class="col-xs-12 col-sm-6">
+        <app-quote-view [quote]="quote"></app-quote-view>
+      </div>
+  </div>
+</div>

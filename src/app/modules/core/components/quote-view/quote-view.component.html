@@ -1,0 +1,31 @@
+<article class="quoteWrap container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-sm-5">
+      <div #movieImage class="movieImage"></div>
+    </div>
+    <div class="col-xs-12 col-sm-7">
+      <div class="row">
+        <div class="col-12">
+          <span class="character">{{quote.characterName}}</span>
+          <span class="title">{{quote.movie}}, {{quote.year}}</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <span class="quote">
+            "{{quote.quote}}"
+          </span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="movieInfo">
+            <span class="infoItem"><strong>MovieDB Rating:</strong> {{quote.rating}}</span>
+            <span class="infoItem"><strong>Added:</strong> {{toPrettyDate(quote.createdAt)}}</span>
+            <span class="infoItem"><strong>Updated:</strong> {{toPrettyDate(quote.updatedAt)}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>

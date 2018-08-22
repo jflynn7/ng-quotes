@@ -1,0 +1,76 @@
+<div class="quoteWrap">
+  <div class="row">
+    <div class="col-xs-12 col-sm-4">
+      <div class="row imageWrap" #imageBox>
+        <div class="col-6 image-box"></div>
+        <div class="col-6 image-box"></div>
+        <div class="col-6 image-box"></div>
+        <div class="col-6 image-box"></div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-8">
+      <strong class="title">Quote of the Day (Random)</strong>
+      <span class="quote">
+        "{{quote.quote}}"
+      </span>
+      <span class="quote-info">
+        <div class="row">
+          <div class="col-4">
+            <div class="row">
+              <div class="col-4">
+                <strong>Movie:</strong>
+              </div>
+              <div class="col-8">
+                {{quote.movie}}
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4">
+                <strong>Character:</strong>
+              </div>
+              <div class="col-8">
+                {{quote.characterName}}
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="row">
+              <div class="col-3">
+                <strong>Year:</strong>
+              </div>
+              <div class="col-9">
+                {{quote.year}}
+              </div>
+            </div>
+            <div class="row" *ngIf="quote.rating">
+              <div class="col-3">
+                <strong>Rating:</strong>
+              </div>
+              <div class="col-9">
+                {{quote.rating}}
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="row">
+              <div class="col-3">
+                <strong>Added:</strong>
+              </div>
+              <div class="col-9">
+                {{toPrettyDate(quote.createdAt)}}
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3">
+                <strong>Updated:</strong>
+              </div>
+              <div class="col-9">
+                {{toPrettyDate(quote.updatedAt)}}
+              </div>
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+  </div>
+</div>
