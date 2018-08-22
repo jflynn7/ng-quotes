@@ -2,6 +2,18 @@
 
 This is an Angular implementation of a popular tech test, which uses a movie quote api. 
 
+### Prerequisites
+You must have Angular CLI installed on your local machine to run `ng serve`. If you haven't got it, run:
+
+`npm install -g @angular/cli`
+
+### Running Locally
+
+* Clone the repo.
+* Navigate to repo directory.
+* Run `npm install`
+* Run `ng serve`
+
 ### Implementation Details
 This implementation is slightly different, in that, as well as retrieving the quotes from a single API (per the ask), it also uses movie quotes in two other formats (from separate mock APIs) to demonstrate data mapping from different sources into a common displayable format.
 
