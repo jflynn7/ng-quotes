@@ -1,0 +1,38 @@
+[
+  {
+    "onScreenCharacter": "Jennifer Cavalleri",
+    "quote": "Love means never having to say you're sorry..",
+    "addedOn": "2018-07-25T14:41:09.694Z",
+    "movieTitle": "Love Story",
+    "id": 1,
+    "updatedOn": "2018-07-25T14:46:09.694Z",
+    "year": "1970"
+  },
+  {
+    "onScreenCharacter": "William Wallace",
+    "quote": "They may take our lives, but they'll never take our freedom",
+    "addedOn": "2018-07-25T14:11:09.694Z",
+    "movieTitle": "Braveheart",
+    "id": 1,
+    "updatedOn": "2018-07-25T14:56:09.694Z",
+    "year": "1995"
+  },
+  {
+    "onScreenCharacter": "Harry Burns",
+    "quote": "When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible.",
+    "addedOn": "2018-07-25T14:43:09.694Z",
+    "movieTitle": "When Harry met Sally",
+    "id": 1,
+    "updatedOn": "2018-07-25T14:45:09.694Z",
+    "year": "1970"
+  },
+  {
+    "onScreenCharacter": "Bryan Mills",
+    "quote": "If you let my daughter go now, that'll be the end of it. I will not look for you, I will not pursue you. But if you don't, I will look for you, I will find you, and I will kill you.",
+    "addedOn": "2018-07-25T11:41:09.694Z",
+    "movieTitle": "Taken",
+    "id": 1,
+    "updatedOn": "2018-07-25T11:46:09.694Z",
+    "year": "1970"
+  }
+]

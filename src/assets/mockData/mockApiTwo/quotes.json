@@ -1,0 +1,65 @@
+[
+  {
+    "characterName": "Jerry Maguire",
+    "quotedContent": "You complete me.",
+    "add_date": "2018-07-25T16:41:09.694Z",
+    "filmName": "Jerry Maguire",
+    "quoteId": 1,
+    "update_date": "2018-07-25T16:46:09.694Z",
+    "yearOfRelease": "1996"
+  },
+  {
+    "characterName": "George Taylor",
+    "quotedContent": "Get your stinking paws off me, you damned dirty ape!",
+    "add_date": "2018-07-25T19:41:09.694Z",
+    "filmName": "Planet of the Apes",
+    "quoteId": 1,
+    "update_date": "2018-07-25T19:46:09.694Z",
+    "yearOfRelease": "1968"
+  },
+  {
+    "characterName": "Han Solo",
+    "quotedContent": "Chewie, we're home.",
+    "add_date": "2018-07-25T14:41:09.694Z",
+    "filmName": "Star Wars Episode VII: The Force Awakens",
+    "quoteId": 1,
+    "update_date": "2018-07-25T07:46:09.694Z",
+    "yearOfRelease": "2015"
+  },
+  {
+    "characterName": "Vincent Vega",
+    "quotedContent": "They call it a Royale with cheese.",
+    "add_date": "2018-07-25T14:41:09.694Z",
+    "filmName": "Pulp Fiction",
+    "quoteId": 1,
+    "update_date": "2018-07-25T07:46:09.694Z",
+    "yearOfRelease": "1994"
+  },
+  {
+    "characterName": "Rocky Balboa",
+    "quotedContent": "Yo, Adrian!",
+    "add_date": "2018-07-25T14:41:09.694Z",
+    "filmName": "Rocky",
+    "quoteId": 1,
+    "update_date": "2018-07-25T14:46:09.694Z",
+    "yearOfRelease": "1976"
+  },
+  {
+    "characterName": "Adrian Cronauer",
+    "quotedContent": "Good morning, Vietnam!",
+    "add_date": "2018-07-25T14:41:09.694Z",
+    "filmName": "Good morning, Vietnam!",
+    "quoteId": 1,
+    "update_date": "2018-07-25T13:26:09.694Z",
+    "yearOfRelease": "1987"
+  },
+  {
+    "characterName": "Princess Leia",
+    "quotedContent": "Help me, Obi-Wan Kenobi. You're my only hope.",
+    "add_date": "2018-07-25T14:41:09.694Z",
+    "filmName": "Star Wars",
+    "quoteId": 1,
+    "update_date": "2018-07-25T13:46:09.694Z",
+    "yearOfRelease": "1977"
+  }
+]
