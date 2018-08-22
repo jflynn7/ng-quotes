@@ -3,7 +3,7 @@ import { TestBed, inject } from '@angular/core/testing';
 import { MappingService } from './mapping.service';
 import { MovieQuote } from '../interfaces/movie-quote';
 
-describe('MappingService', () => {
+fdescribe('MappingService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       providers: [MappingService]
